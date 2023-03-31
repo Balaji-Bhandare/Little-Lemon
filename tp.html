@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css"></link>
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <header>
+            <img id="logo" src="lemon.png" alt="LOGO">
+        </header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#new">New Arrivals</a></li>
+                <li><a href="#book">Booking</a></li>
+                <li><a href="#about">About</a></li>
+              </ul>
+        </nav>
+
+        <div class="container">
+            <div class="dal">
+                <div class="quote">
+                    <h1>EATING IS A NECESSITY </h1>
+                    <h1>BUT COOKING IS AN ART.</h1>
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <main>
+                
+                <div id="home">
+                    <h1 id="home-h1">HOME</h1>
+                    <div id="home-card">
+                        <p>Welcome to Little Lemon Restaurant! We are a cozy little restaurant that serves up fresh, delicious meals with a focus on using locally sourced ingredients. Our menu features a variety of dishes, from classic comfort food to innovative twists on traditional favorites. Come dine with us and experience the taste of our passion for food.</p>
+                        <img src="resto.jpg" alt="Little Lemon">
+                    </div>
+                </div>
+
+                <div id="menu">
+                    <h1 id="menu-h1">MENU</h1>
+                    <div id="menu-card">
+                        <p>Start your meal with our mouth-watering appetizers, like our crispy calamari or our tangy buffalo wings. For entrees, try our signature Little Lemon Chicken, served with fresh vegetables and our homemade lemon sauce. Or indulge in our creamy four-cheese pasta, made with a blend of mozzarella, parmesan, asiago, and romano cheeses. And don't forget to save room for our decadent desserts, like our classic tiramisu or our rich chocolate lava cake.</p>
+                        <img src="menu.jpg" alt="">
+ 
+                    </div>
+                </div>
+
+                <div id="new">
+                    <h1 id="new-h1">New Arrivals</h1>
+                    <div class="menu-card">
+                        <div class="arr-card1">
+                            <img src="burger.jpg" alt="" style="width: 100%">
+                            <div class="arr-cards-desc">
+                                <span><center><h3>Chicken Burger</h3></center></span>
+                                <p>Introducing our new mouth-watering chicken burger! Made with 100% fresh, juicy chicken. Our chicken is marinated in a special blend of herbs and spices, grilled to perfection, and served on a soft, toasted bun.</p>
+                            </div>
+                        </div>
+                        <div class="arr-card1">
+                            <img src="pizza.jpg" alt="" style="width: 100%">
+                            <div class="arr-cards-desc">
+                                <span><center><h3>Pizza</h3></center></span>
+                                <p>Introducing our latest creation, the delicious new pizza! With a perfectly crispy crust and a generous helping of gooey melted cheese, every bite of our new pizza is a flavor explosion.</p>
+                            </div>
+                        </div>
+                        <div class="arr-card1">
+                            <img src="paneer.jpg" alt="" style="width: 100%">
+                            <div class="arr-cards-desc">
+                                <span><center><h3>Paneer Butter Masala</h3></center></span>
+                                <p>Introducing our Paneer Butter Masala! Made with tender chunks of paneer cooked in a rich, creamy tomato-based sauce, and infused with aromatic spices, this dish is sure to become your new favorite.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+
+                <div id="book">
+                    <h1 class="book-h1">Booking</h1>
+                        <div class="book-container">
+                            <div class="book-desc">
+                                <h1>Book a Table</h1>
+                                <p>Book a Table now in an award-winning dining restaurant in Hyderabad, with a perfect ambience to complement global cuisine personalised to cater to you around the clock.</p>
+                            </div>
+
+                            <div class="book-info">
+                                <form action="">
+                                    <table border="0">
+                                        <thead><h1>Your Details</h1></thead>
+                                        <tr>
+                                            <td>
+                                                <label for="fname"> Name: </label><br>
+                                                <input id="fname" type="text" placeholder=" NAME*" required>
+                                            </td>
+                                            <td>
+                                                <label for="fnumber">Number: </label><br>
+                                                <input id="fnumber" type="number" placeholder=" TELEPHONE*" required>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                <label for="size">Table size: </label><br>
+                                                <select id="size" name="Table size">
+                                                    <option value="" hidden>select</option>
+                                                    <option value="2">2</option>
+                                                    <option value="4">4</option>
+                                                    <option value="6">6</option>
+                                                    <option value="8">8</option>
+                                                    <option value="10">10</option>
+                                                </select>
+                                            </td>
+                                            <td>
+                                                <label for="choice">Dining plan: </label><br>
+                                                <select id="choice" name="Choice">
+                                                    <option value="" hidden>select</option>
+                                                    <option value="ala-carte">Ala carte</option>
+                                                    <option value="buffet">Buffet</option>
+                                                </select>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                <label for="fdate">Date: </label><br>
+                                                <input id="fdate" type="date">
+                                            </td>
+                                            <td>
+                                                <label for="ftime">Time: </label><br>
+                                                <select id="ftime" name="Time">
+                                                    <option value="" hidden>select</option>
+                                                    <option value="">6PM - 7PM</option>
+                                                    <option value="">7PM - 8PM</option>
+                                                    <option value="">8PM - 9PM</option>
+                                                    <option value="">9PM - 10PM</option>
+                                                    <option value="">10PM - 11PM</option>
+                                                </select>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <label for="comments">Comments: </label> <br>
+                                    <textarea id="comments" rows="5" cols="57" placeholder="Comments..." style="padding: 3px;"></textarea><br>
+                                    <center><input type="submit" value="Book"></center>
+                                </form>
+                            </div>
+                        </div>
+                </div>
+
+                <div id="about">
+                    <h1 class="book-h1">ABOUT</h1>
+                        <p>At Little Lemon Restaurant, we believe that great food starts with great ingredients. That's why we work closely with local farmers and producers to source the freshest and highest quality ingredients for our dishes. Our menu is carefully crafted to showcase the best of each season, and we always aim to provide our customers with an exceptional dining experience.</p>
+                        <center>
+                        <h2>Testimonials</h2>
+                        <hr width="5%" style="height:3px; border:none; border-top: solid rgb(248, 23, 23);"> 
+                        <div id="testimonial">
+                            <div class="test">
+                                <img id="img-1" src="test-2.png" alt="profile 1 image">
+                                <p>I have been a regular at Little Lemon Restaurant for years, and I am always blown away by the quality of the food and the service. The menu is diverse and innovative, with a range of dishes that cater to all tastes. I highly recommend this restaurant to anyone looking for a delicious meal in a cozy atmosphere.</p>    
+                            </div>
+
+                            <div class="test">
+                                <img id="img-2" src="test-1.png" alt="profile 2 image">
+                                <p>Little Lemon Restaurant is hands down my favorite restaurant in town. The food is always fresh and bursting with flavor, and the portions are generous. The chefs take great care in preparing each dish, and it really shows in the taste. Whether you're looking for a romantic dinner for two or a night out with friends, this restaurant is the perfect choice.</p>    
+                            </div>
+                            
+                            <div class="test">
+                                <img id="img-3" src="test-3.png" alt="profile 3 image">
+                                <p>I recently visited Little Lemon Restaurant for a business lunch, and I was thoroughly impressed. The atmosphere was relaxed and professional, and the service was top-notch. I ordered the grilled salmon with roasted vegetables, and it was absolutely delicious. I highly recommend this restaurant for any occasion.</p>    
+                            </div>
+                        </div>
+                        </center>
+                </div>
+            </main>
+            <footer>
+                <div class="copyright">
+                    <img id="footlogo" src="lemon.png" alt="foot-logo">
+                    <p>Copyright &copy; 2023</p>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
+ 
